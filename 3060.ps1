@@ -1,6 +1,6 @@
 ﻿$c = @{
 Username = 'www.caseywhite@gmail.com'
-Password = 'rhgctoptcvrjpzrz'
+Password = Unprotect-CmsMessage -Path $env:SystemDrive\Users\cwhite\source\cc6
 }
 
 $cred = New-Object System.Management.Automation.PSCredential($c.Username,($c.Password | ConvertTo-SecureString -AsPlainText -Force))
